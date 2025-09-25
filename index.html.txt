@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rosy Brand | Luxury Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="bgMusic" src="assets/audio/background.mp3" autoplay loop></audio>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Rosy Brand</h1>
+    <p>Luxury Digital Marketing for Visionary Brands</p>
+    <button onclick="toggleMusic()">🔊 Toggle Music</button>
+  </section>
+
+  <!-- More sections will be added here -->
+<section class="about">
+  <h2>About Rosy Brand</h2>
+  <p>Rosy Brand is a luxury digital marketing agency that crafts elegant, emotionally resonant campaigns for premium brands. We specialize in exclusivity, high-impact storytelling, and strategic growth.</p>
+</section>
+<section class="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Luxury Brand Strategy</li>
+    <li>Premium Social Media Campaigns</li>
+    <li>SEO Optimization</li>
+    <li>Content Creation</li>
+    <li>Marketing Automation</li>
+    <li>Analytics & Reporting</li>
+  </ul>
+</section>
+<section class="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h3>Inbound Marketing Certified</h3>
+      <p>HubSpot Academy | Sep 2025 – Oct 2027</p>
+      <p>Content creation, lead nurturing, social promotion.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Inbound Marketing Optimization Certified</h3>
+      <p>HubSpot Academy | Sep 2025 – Oct 2026</p>
+      <p>Conversational marketing, conversion optimization.</p>
+    </div>
+    <div class="cert-card">
+      <h3>SEO Certified</h3>
+      <p>HubSpot Academy | Sep 2025 – Oct 2026</p>
+      <p>Website SEO, search engine performance.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Social Media Certified</h3>
+      <p>HubSpot Academy | Sep 2025 – Oct 2027</p>
+      <p>Inbound social strategy, ROI tracking.</p>
+    </div>
+    <div class="cert-card">
+      <h3>AI-Powered SEO Masterclass</h3>
+      <p>Pankaj Kumar SEO | Sep 22, 2025</p>
+      <p>3-day intensive training on AI-powered SEO.</p>
+    </div>
+    <div class="cert-card">
+      <h3>Google My Business Certified</h3>
+      <p>Google | Mar 28, 2025</p>
+      <p>Business listing optimization, local visibility.</p>
+    </div>
+  </div>
+</section>
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: contact@rosybrand.com</p>
+  <p>Instagram: @rosybrandlux</p>
+</section>
+<footer class="footer">
+  <p>&copy; 2025 Rosy Brand. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button onclick="toggleMusic()">🔊 Toggle Music</button>
+</footer><footer class="footer">
+  <p>&copy; 2025 Rosy Brand. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button onclick="toggleMusic()">🔊 Toggle Music</button>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+<section class="portfolio">
+  <h2>Portfolio</h2>
+  <p>Explore our upcoming showcase of luxury campaigns, visual storytelling, and digital excellence.</p>
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <h3>Video Campaigns</h3>
+      <p>Coming Soon: High-impact reels and cinematic brand stories.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Visual Designs</h3>
+      <p>Coming Soon: Premium perfume visuals, product shots, and brand imagery.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Logo Showcase</h3>
+      <p>Coming Soon: Elegant brand marks and identity designs.</p>
+    </div>
+    <div class="portfolio-item">
+      <h3>Audio Branding</h3>
+      <p>Coming Soon: Signature soundtracks and campaign voiceovers.</p>
+    </div>
+  </div>
+</section>

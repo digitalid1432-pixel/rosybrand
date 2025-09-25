@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #111, #333);
+}
+
+button {
+  background-color: #d4af37;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d4af37;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s ease;
+}
+.about, .services, .contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #111;
+  color: #f5f5f5;
+  border-top: 1px solid #d4af37;
+}
+
+.about h2, .services h2, .contact h2 {
+  font-size: 32px;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #f0e6d2;
+}
+.certifications {
+  padding: 60px 20px;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cert-card {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #d4af37;
+}
+.portfolio {
+  padding: 60px 20px;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-item {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #d4af37;
+}
+.footer {
+  background-color: #111;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #d4af37;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}.footer {
+  background-color: #111;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #d4af37;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
